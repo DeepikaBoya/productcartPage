@@ -1,0 +1,77 @@
+
+
+
+.header {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    margin-top: 0;
+  }
+  
+  .nav > li {
+    color: white;
+  }
+  
+  .nav > li:hover {
+    color: turquoise;
+  }
+  
+  /* ----------------------- */
+  
+  .productContainer {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+  
+  .products {
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  
+  .productDesc {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    
+  }
+  
+  .add {
+    padding: 8px;
+  }
+  
+  .remove {
+    background-color: grey;
+    color: white;
+  }
+  .productImage {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: 0; /* Set initial height to 0 */
+    padding-top: 140%; /* Maintain 1:1 aspect ratio (square) */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+
+  }
+  
+  
+  
+  
+  
